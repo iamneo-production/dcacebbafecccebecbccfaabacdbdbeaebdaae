@@ -19,8 +19,8 @@ public class SpringApplicationTests {
     public void beforeTest() throws Exception
      {
    // replace seleniumhost and port with correct values
-        driver = new RemoteWebDriver(new URL("http://<seleniumhost:port>/"), chromeOptions);
-        driver.manage().window().maximize();
+        //driver = new RemoteWebDriver(new URL("http://<seleniumhost:port>/"), chromeOptions);
+        //driver.manage().window().maximize();
     }
 
     @AfterTest
